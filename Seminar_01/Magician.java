@@ -11,12 +11,16 @@ public class Magician {
     private boolean delivery;
     private boolean magic;
 
+    /**
+     * конструктор без параметров
+     */
     public Magician() {
-        name = "Vasya";
+        name = "Harry Potter";
         attack = 17;
         protection = 12;
         shots = 0;
-        damage[0] = -5; damage[1] = -5;
+        damage[0] = -5;
+        damage[1] = -5;
         health = 30;
         speed = 9;
         delivery = false;
@@ -24,8 +28,7 @@ public class Magician {
     }
 
     /**
-     * дополнительный конструктор с параметром ИМЯ и СКОРОСТЬ
-     * 
+     * дополнительный конструктор с параметрами ИМЯ и СКОРОСТЬ
      * @param name
      * @param speed
      */
@@ -35,13 +38,17 @@ public class Magician {
         this.speed = speed;
     }
 
+    /**
+     * дополнительный конструктор с параметром ИМЯ
+     * @param name
+     */
     public Magician(String name) {
         this();
         this.name = name;
     }
 
-        static public String getName() {
-            return String.format("Маг с именем: %s", name);
+    static public String getName() {
+        return String.format("Маг с именем: %s", name);
     }
 
 }

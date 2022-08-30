@@ -13,5 +13,13 @@ public class Program {
         FellowshipOfRing.put("Spearman", "Gimli");
         FellowshipOfRing.put("Crossbowman", "Aragorn");
         FellowshipOfRing.put("Monk", "Arwen");
+
+        // String keyNameHero = "Crossbowman";
+        // if(FellowshipOfRing.containsKey(keyNameHero)){
+        //     new Crossbowman(FellowshipOfRing.get(keyNameHero));
+        // }
+        
+        new Crossbowman();
+        System.out.println(Crossbowman.getInfo());
     }
 }

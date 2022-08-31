@@ -26,9 +26,9 @@ public class Program {
         keyNameHeroList.add("Crossbowman");
         keyNameHeroList.add("Monk");
 
-        // String nameHero = fellowshipOfRing.getOrDefault(keyNameHeroList.get(1), "Имя не задано");
-        // new Crossbowman(nameHero);
-
+        String nameHero = fellowshipOfRing.getOrDefault(keyNameHeroList.get(1), "Имя не задано");
+        new Peasant(nameHero);
+        
         new Peasant();
         new Outlaw();
         new Sniper();

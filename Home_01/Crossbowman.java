@@ -1,6 +1,7 @@
 package Home_01;
 
 public class Crossbowman {
+    // описание песонажа
     private static String name;
     private static int attack;
     private static int protection;
@@ -36,15 +37,20 @@ public class Crossbowman {
         this.name = name;
     }
 
+    /**
+     * геттер приватных полей
+     * 
+     * @return строку с описанием персонажа
+     */
     public static String getInfo() {
         return String.valueOf("Арбалетчик по имени " + name +
                 ";\nАтакует на: " + attack +
                 ";\nИмеет защиту: " + protection +
                 ";\nСтреляет на: " + shots +
                 ";\nНаносит урон в пределах: " + damage +
-                ";\nИмеет здоровье: " + health + 
-                ";\nРазвивает скорость: " + speed + 
-                "\nНаличие доставки: " + delivery + 
+                ";\nИмеет здоровье: " + health +
+                ";\nРазвивает скорость: " + speed +
+                "\nНаличие доставки: " + delivery +
                 "\nНаличие магии: " + magic);
     }
 }

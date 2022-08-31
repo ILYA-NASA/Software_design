@@ -7,6 +7,7 @@ import java.util.Map;
 
 public class Program {
     public static void main(String[] args) {
+        
         Map<String, String> fellowshipOfRing = new HashMap<>();
         fellowshipOfRing.put("Peasant", "Frodo");
         fellowshipOfRing.put("Outlaw", "Sauron");
@@ -17,7 +18,7 @@ public class Program {
         fellowshipOfRing.put("Monk", "Arwen");
 
         List<String> keyNameHeroList = new ArrayList<>();
-        keyNameHeroList.add("Crossbowman");
+        keyNameHeroList.add("Peasant");
         keyNameHeroList.add("Outlaw");
         keyNameHeroList.add("Sniper");
         keyNameHeroList.add("Magician");
@@ -28,7 +29,20 @@ public class Program {
         // String nameHero = fellowshipOfRing.getOrDefault(keyNameHeroList.get(1), "Имя не задано");
         // new Crossbowman(nameHero);
 
+        new Peasant();
+        new Outlaw();
+        new Sniper();
+        new Magician();
+        new Spearman();
         new Crossbowman();
-        System.out.println(Crossbowman.getInfo());
+        new Monk();
+
+        System.out.println("\n" + Peasant.getInfo());
+        System.out.println("\n" + Outlaw.getInfo());
+        System.out.println("\n" + Sniper.getInfo());
+        System.out.println("\n" + Magician.getInfo());
+        System.out.println("\n" + Spearman.getInfo());
+        System.out.println("\n" + Crossbowman.getInfo());
+        System.out.println("\n" + Monk.getInfo() + "\n");
     }
 }

@@ -5,6 +5,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import Home_01.Characters.Crossbowman;
+import Home_01.Characters.Magician;
+import Home_01.Characters.Monk;
+import Home_01.Characters.Outlaw;
+import Home_01.Characters.Peasant;
+import Home_01.Characters.Sniper;
+import Home_01.Characters.Spearman;
+
 public class Program {
     public static void main(String[] args) {
         

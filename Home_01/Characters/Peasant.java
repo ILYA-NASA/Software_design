@@ -1,56 +1,19 @@
-package Home_01;
+package Home_01.Characters;
 
-public class Peasant{
-    // описание песонажа
-    private static String name;
-    private static int attack;
-    private static int protection;
-    private static int shots;
-    private static int[] damage = new int[2];
-    private static int health;
-    private static int speed;
-    private static boolean delivery;
-    private static boolean magic;
+import Home_01.Abstracts.BaseHero;
 
-    /**
-     * конструктор без параметров
-     */
+public class Peasant extends BaseHero {
     public Peasant() {
-        name = "Frodo Baggins";
-        attack = 1;
-        protection = 1;
-        shots = 0;
-        damage[0] = 1;
-        damage[1] = 1;
-        health = 1;
-        speed = 3;
-        delivery = true;
-        magic = false;
-    }
-
-    /**
-     * дополнительный конструктор
-     * 
-     * @param name
-     */
-    public Peasant(String name) {
-        this.name = name;
-    }
-
-    /**
-     * геттер приватных полей
-     * 
-     * @return строку с описанием персонажа
-     */
-    public static String getInfo() {
-        return String.valueOf("Крестьянин по имени " + name +
-                ";\nАтакует на: " + attack +
-                ";\nИмеет защиту: " + protection +
-                ";\nСтреляет на: " + shots +
-                ";\nНаносит урон в пределах: " + damage +
-                ";\nИмеет здоровье: " + health +
-                ";\nРазвивает скорость: " + speed +
-                "\nНаличие доставки: " + delivery +
-                "\nНаличие магии: " + magic);
+        super.name = "Frodo Baggins";
+        super.attack = 1;
+        super.protection = 1;
+        super.shots = 0;
+        super.damageMin = 1;
+        super.damageMax = 1;
+        super.health = 1;
+        super.speed = 3;
+        super.delivery = true;
+        super.magic = false;
+        super.status = false;
     }
 }

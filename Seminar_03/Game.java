@@ -75,14 +75,14 @@ public class Game {
                     whiteSide.get(i).step();
                     if (darkSide.get(i).returnCondition().length() > 27) {
                         System.out.println(
-                            darkSide.get(i).returnCondition() + "\t:\t" + whiteSide.get(i).returnCondition());
-                        } else {
-                            System.out.println(
+                                darkSide.get(i).returnCondition() + "\t:\t" + whiteSide.get(i).returnCondition());
+                    } else {
+                        System.out.println(
                                 darkSide.get(i).returnCondition() + "\t\t:\t" + whiteSide.get(i).returnCondition());
-                            }
+                    }
                 }
             }
-            if (txt.equals("quet")) {
+            if (txt.equals("quit")) {
                 break;
             }
         }

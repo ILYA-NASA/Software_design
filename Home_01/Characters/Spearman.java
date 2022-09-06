@@ -1,19 +1,29 @@
 package Home_01.Characters;
 
+import java.util.List;
+
 import Home_01.Abstracts.BaseHero;
 
 public class Spearman extends BaseHero {
-    public Spearman() {
-        super.name = "Gimli Dwarf";
-        super.attack = 4;
-        super.protection = 5;
-        super.shots = 0;
-        super.damageMin = 1;
-        super.damageMax = 3;
-        super.health = 10;
-        super.speed = 4;
-        super.delivery = false;
-        super.magic = false;
-        super.status = false;
+   
+    public Spearman(List<BaseHero> side, int x, int y){
+        super(side);
+        name = ("Gimli");
+        attack = 4;
+        defence = 5;
+        shoot = 0;
+        damage = new Vector2(2, 3);
+        crntHealth = health = 10;
+        speed = 4;
+        delivery = false;
+        magic = false;
+        status = "stand";
+        position = new Vector2(x, y);
+    }
+
+    public boolean status() {return status.equals("active");}
+
+    public void step() {
+
     }
 }

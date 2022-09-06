@@ -1,21 +1,29 @@
 package Home_01.Characters;
 
-import java.util.Base64;
+import java.util.List;
 
 import Home_01.Abstracts.BaseHero;
 
 public class Sniper extends BaseHero {
-    public Sniper() {
-        super.name = "Legolas Accurate";
-        super.attack = 12;
-        super.protection = 10;
-        super.shots = 32;
-        super.damageMin = 8;
-        super.damageMax = 10;
-        super.health = 15;
-        super.speed = 9;
-        super.delivery = false;
-        super.magic = false;
-        super.status = false;
+    
+    public Sniper(List<BaseHero> side, int x, int y){
+        super(side);
+        name = ("Legolas");
+        attack = 12;
+        defence = 10;
+        shoot = 32;
+        damage = new Vector2(1, 5);
+        crntHealth = health = 15;
+        speed = 9;
+        delivery = false;
+        magic = false;
+        status = "stand";
+        position = new Vector2(x, y);
+    }
+
+    public boolean status() {return status.equals("active");}
+
+    public void step() {
+
     }
 }

@@ -1,20 +1,29 @@
 package Home_01.Characters;
 
+import java.util.List;
+
 import Home_01.Abstracts.BaseHero;
 
 public class Magician extends BaseHero {
 
-    public Magician() {
-        super.name = "Gandalf the Grey";
-        super.attack = 17;
-        super.protection = 12;
-        super.shots = 0;
-        super.damageMin = -5;
-        super.damageMax = -5;
-        super.health = 30;
-        super.speed = 9;
-        super.delivery = false;
-        super.magic = true;
-        super.status = false;
+    public Magician(List<BaseHero> side, int x, int y){
+        super(side);
+        name = ("Gandalf");
+        attack = 17;
+        defence = 12;
+        shoot = 0;
+        damage = new Vector2(-4, -4);
+        crntHealth = health = 30;
+        speed = 9;
+        delivery = false;
+        magic = true;
+        status = "stand";
+        position = new Vector2(x, y);
+    }
+
+    public boolean status() {return status.equals("active");}
+
+    public void step() {
+
     }
 }

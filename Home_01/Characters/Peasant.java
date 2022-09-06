@@ -1,19 +1,29 @@
 package Home_01.Characters;
 
+import java.util.List;
+
 import Home_01.Abstracts.BaseHero;
 
 public class Peasant extends BaseHero {
-    public Peasant() {
-        super.name = "Frodo Baggins";
-        super.attack = 1;
-        super.protection = 1;
-        super.shots = 0;
-        super.damageMin = 1;
-        super.damageMax = 1;
-        super.health = 1;
-        super.speed = 3;
-        super.delivery = true;
-        super.magic = false;
-        super.status = false;
+    
+    public Peasant(List<BaseHero> side, int x, int y){
+        super(side);
+        name = ("Frodo");
+        attack = 1;
+        defence = 1;
+        shoot = 0;
+        damage = new Vector2(2, 4);
+        crntHealth = health = 1;
+        speed = 3;
+        delivery = true;
+        magic = false;
+        status = "stand";
+        position = new Vector2(x, y);
+    }
+
+    public boolean status() {return status.equals("active");}
+
+    public void step() {
+
     }
 }

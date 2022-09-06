@@ -1,60 +1,35 @@
 package Home_01.Abstracts;
 
+import java.util.List;
+
+import Home_01.Characters.*;
 import Home_01.Interfaces.FightingActions;
 
 public abstract class BaseHero implements FightingActions {
-    
-    protected String name;
     protected int attack;
-    protected int protection;
-    protected int shots;
-    protected int damageMin;
-    protected int damageMax;
+    protected int defence;
+    protected int shoot;
+    protected Vector2 damage;
     protected int health;
+    protected int crntHealth;
     protected int speed;
     protected boolean delivery;
-    protected boolean magic;
-    protected boolean status;
+    protected boolean magic = true;
+    protected String name;
+    protected String status;
+    protected Vector2 position;
 
-    @Override
-    public int makeAttack() {
-        // TODO Auto-generated method stub
-        return 0;
+    protected List<BaseHero> getList() {
+        return list;
     }
 
-    @Override
-    public int acceptDamaged() {
-        // TODO Auto-generated method stub
-        return 0;
+    protected List<BaseHero> list;
+
+    public BaseHero(List<BaseHero> side) {
+        list = side;
     }
 
-    @Override
-    public boolean status() {
-        // TODO Auto-generated method stub
-        return false;
-    }
-
-    @Override
-    public boolean moved() {
-        // TODO Auto-generated method stub
-        return false;
-    }
-
-    @Override
-    public String condition() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    public String info() {
-        return "Арбалетчик по имени " + name +
-                ";\nАтакует на: " + attack +
-                ";\nИмеет защиту: " + protection +
-                ";\nСтреляет на: " + shots +
-                ";\nНаносит урон в пределах: " + damageMin + "-" + damageMax +
-                ";\nИмеет здоровье: " + health +
-                ";\nРазвивает скорость: " + speed +
-                "\nНаличие доставки: " + delivery +
-                "\nНаличие магии: " + magic;
+    public String returnCondition() {
+        return name + " H:" + crntHealth + " D:" + defence + " A:" + attack + " " + status;
     }
 }

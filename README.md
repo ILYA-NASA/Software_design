@@ -8,3 +8,4 @@
 6. [Практическое задание](https://github.com/ILYA-NASA/OOP/tree/main/Home_01) (дополняемое по мере поступления задач каждого семинара) - иммитация игры в стиле Turn-Based Strategy
 7. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_01), что шарил на семинаре 1
 8. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_03), что шарил в конце семинара 3
+8. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_05), с семинара 5

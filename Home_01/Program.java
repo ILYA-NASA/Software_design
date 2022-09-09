@@ -23,17 +23,10 @@ public class Program {
         Random rnd = new Random();
         for (int i = 0; i < 5; i++) {
             switch (rnd.nextInt(4)) {
-                case 0:
-                    mordor.add(new Peasant(mordor, 0, 0));
-                    break;
-                case 1:
-                    mordor.add(new Outlaw(mordor, 0, 0));
-                    break;
-                case 2:
-                    mordor.add(new Sniper(mordor, 0, 0));
-                    break;
-                default:
-                    mordor.add(new Magician(mordor, 0, 0));
+                case 0 -> mordor.add(new Peasant(mordor, 0, 0));
+                case 1 -> mordor.add(new Outlaw(mordor, 0, 0));
+                case 2 -> mordor.add(new Sniper(mordor, 0, 0));
+                default -> mordor.add(new Magician(mordor, 0, 0));
             }
         }
 
@@ -43,17 +36,10 @@ public class Program {
 
         for (int i = 0; i < 5; i++) {
             switch (rnd.nextInt(4)) {
-                case 0:
-                    isengard.add(new Monk(isengard, 0, 0));
-                    break;
-                case 1:
-                    isengard.add(new Crossbowman(isengard, 0, 0));
-                    break;
-                case 2:
-                    isengard.add(new Spearman(isengard, 0, 0));
-                    break;
-                default:
-                    isengard.add(new Magician(isengard, 0, 0));
+                case 0 -> isengard.add(new Monk(isengard, 0, 0));
+                case 1 -> isengard.add(new Crossbowman(isengard, 0, 0));
+                case 2 -> isengard.add(new Spearman(isengard, 0, 0));
+                default -> isengard.add(new Magician(isengard, 0, 0));
             }
         }
 

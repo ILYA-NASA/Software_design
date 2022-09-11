@@ -28,10 +28,14 @@ public class Monk extends BaseHero {
 
     @Override
     public void step() {
-        Random rnd = new Random();
-        list.get(rnd.nextInt(list.size())).health -= damage.x;
-
-
+        // int i = new Random().nextInt(super.list.size());
+        // BaseHero p = super.list.get(i);
+        // if (!p.status.equals("Die.")){
+        //     super.list.get(i).crntHealth -= damage.x;
+        //     if (super.list.get(i).crntHealth >= super.list.get(i).health) {
+        //         super.list.get(i).crntHealth = super.list.get(i).health;
+        //     }
+        // }
     }
 }
 

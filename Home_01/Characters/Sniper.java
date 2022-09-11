@@ -24,6 +24,13 @@ public class Sniper extends BaseHero {
     public boolean status() {return status.equals("active");}
 
     public void step() {
-
+        // boolean tmp = false;
+        // for (BaseHero bh: super.list) {
+        //     if (bh.name.equals("Peasant")) {
+        //         tmp = true;
+        //         break;
+        //     }
+        // }
+        // if (tmp) shoot++;
     }
 }

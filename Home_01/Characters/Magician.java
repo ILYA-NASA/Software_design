@@ -24,6 +24,13 @@ public class Magician extends BaseHero {
     public boolean status() {return status.equals("active");}
 
     public void step() {
-
+        // int i = new Random().nextInt(super.list.size());
+        // BaseHero p = super.list.get(i);
+        // if (!p.status.equals("Die")){
+        //     p.crntHealth -= damage.x;
+        //     if (p.crntHealth >= p.health) {
+        //         p.crntHealth = p.health;
+        //     }
+        // }
     }
 }

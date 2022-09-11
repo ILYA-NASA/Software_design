@@ -49,7 +49,7 @@ public class Program {
             System.out.println("Step:" + Integer.toString(step));
         }
         System.out.println("--------------------------------------------");
-        System.out.println("Dark side\t\t\t\t\t\t\tWhite side");
+        System.out.println("Mordor\t\t\t\t\t\t\tIsengard");
         for (int i = 0; i < mordor.size(); i++) {
             if (mordor.get(i).returnCondition().length() > 27) {
                 System.out.println(mordor.get(i).returnCondition() + "\t:\t" + isengard.get(i).returnCondition());

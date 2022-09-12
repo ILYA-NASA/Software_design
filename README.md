@@ -10,3 +10,4 @@
 8. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_01), что шарил на семинаре 1
 9. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_03), что шарил в конце семинара 3
 10. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_05), с семинара 5
+11. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_06), что шарил на семинаре 6

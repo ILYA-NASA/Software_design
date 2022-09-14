@@ -1,4 +1,4 @@
-package Seminar_06.Abstract;
+package Seminar_06.Practice;
 
 public abstract class Floating extends Vehicle {
 

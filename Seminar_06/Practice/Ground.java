@@ -1,4 +1,4 @@
-package Seminar_06.Abstract;
+package Seminar_06.Practice;
 
 public abstract class Ground extends Vehicle {
     // BMW G 310 R

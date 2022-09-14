@@ -71,8 +71,8 @@ public class Game {
             String txt = in.nextLine();
             if (txt.equals("next")) {
                 for (int i = 0; i < darkSide.size(); i++) {
-                    darkSide.get(i).step();
-                    whiteSide.get(i).step();
+                    darkSide.get(i).step(whiteSide);
+                    whiteSide.get(i).step(whiteSide);
                     if (darkSide.get(i).returnCondition().length() > 27) {
                         System.out.println(
                                 darkSide.get(i).returnCondition() + "\t:\t" + whiteSide.get(i).returnCondition());

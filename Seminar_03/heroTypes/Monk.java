@@ -24,11 +24,11 @@ public class Monk extends BaseHero {
         return status.equals("active");
     }
 
-    @Override
-    public void step() {
-        Random rnd = new Random();
-        list.get(rnd.nextInt(list.size())).health -= damage.x;
+    // @Override
+    // public void step() {
+    //     Random rnd = new Random();
+    //     list.get(rnd.nextInt(list.size())).health -= damage.x;
 
 
-    }
+    // }
 }

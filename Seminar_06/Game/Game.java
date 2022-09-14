@@ -2,12 +2,15 @@ import heroTypes.*;
 import java.util.*;
 
 public class Game {
-    private static final int[] l = {0};
+    private static final int[] l = { 0 };
     private static final List<BaseHero> darkSide = new ArrayList<>();
     private static final List<BaseHero> whiteSide = new ArrayList<>();
-    private static final String top10 = formatDiv("a") + String.join("", Collections.nCopies(9, formatDiv("-b"))) + formatDiv("-c");
-    private static final String midl10 = formatDiv("d") + String.join("", Collections.nCopies(9, formatDiv("-e"))) + formatDiv("-f");
-    private static final String bottom10 = formatDiv("g") + String.join("", Collections.nCopies(9, formatDiv("-h"))) + formatDiv("-i");
+    private static final String top10 = formatDiv("a") + String.join("", Collections.nCopies(9, formatDiv("-b")))
+            + formatDiv("-c");
+    private static final String midl10 = formatDiv("d") + String.join("", Collections.nCopies(9, formatDiv("-e")))
+            + formatDiv("-f");
+    private static final String bottom10 = formatDiv("g") + String.join("", Collections.nCopies(9, formatDiv("-h")))
+            + formatDiv("-i");
 
     public static void main(String[] args) {
         int step = 1;
@@ -17,7 +20,7 @@ public class Game {
         in.nextLine();
 
         while (true) {
-            if (step == 1 ){
+            if (step == 1) {
                 System.out.print(AnsiColors.ANSI_RED + "First step" + AnsiColors.ANSI_RESET);
             } else {
                 System.out.print(AnsiColors.ANSI_RED + "Step:" + step + AnsiColors.ANSI_RESET);
@@ -35,6 +38,7 @@ public class Game {
             in.nextLine();
         }
     }
+
     private static void init() {
         int x = 1;
         int y = 1;
@@ -82,10 +86,15 @@ public class Game {
             }
         }
     }
-    private static void tabSetter(int cnt, int max){
+
+    private static void tabSetter(int cnt, int max) {
         int dif = max - cnt + 2;
-        if (dif>0) System.out.printf("%"+ dif +"s", ":\t"); else System.out.print(":\t");
+        if (dif > 0)
+            System.out.printf("%" + dif + "s", ":\t");
+        else
+            System.out.print(":\t");
     }
+
     private static String formatDiv(String str) {
         return str.replace('a', '\u250c')
                 .replace('b', '\u252c')
@@ -98,7 +107,8 @@ public class Game {
                 .replace('i', '\u2518')
                 .replace('-', '\u2500');
     }
-    private static String getChar(int x, int y){
+
+    private static String getChar(int x, int y) {
         String out = "| ";
         for (int cnt = 0; cnt < darkSide.size(); cnt++) {
             if (darkSide.get(cnt).getPosition().x == x && darkSide.get(cnt).getPosition().y == y) {
@@ -109,13 +119,17 @@ public class Game {
         }
         return out;
     }
+
+    // TODO пофиксить баги с перемещениями персонажей
     private static void view() {
         darkSide.forEach((v) -> l[0] = Math.max(l[0], v.returnCondition().length()));
-        for (int i = 0; i < l[0]*2; i++) System.out.print("_");
+        for (int i = 0; i < l[0] * 2; i++)
+            System.out.print("_");
         System.out.println("");
         System.out.print(top10 + "    ");
         System.out.print("Blue side");
-        for (int i = 0; i < l[0]-9; i++) System.out.print(" ");
+        for (int i = 0; i < l[0] - 9; i++)
+            System.out.print(" ");
         System.out.println(":\tGreen side");
         for (int i = 1; i < 11; i++) {
             System.out.print(getChar(1, i));
@@ -131,10 +145,10 @@ public class Game {
                 System.out.print(getChar(i, j));
             }
             System.out.print("|    ");
-            System.out.print(darkSide.get(i-1).returnCondition());
-            tabSetter(darkSide.get(i-1).returnCondition().length(), l[0]);
+            System.out.print(darkSide.get(i - 1).returnCondition());
+            tabSetter(darkSide.get(i - 1).returnCondition().length(), l[0]);
 
-            System.out.println(whiteSide.get(i-1).returnCondition());
+            System.out.println(whiteSide.get(i - 1).returnCondition());
             System.out.println(midl10);
         }
         for (int j = 1; j < 11; j++) {

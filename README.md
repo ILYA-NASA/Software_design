@@ -6,7 +6,7 @@
 4. [Исходники](https://github.com/ILYA-NASA/OOP/tree/main/Lecture_04) лекции 4 "ООП: Обобщения"
 5. [Исходники](https://github.com/ILYA-NASA/OOP/tree/main/Lecture_05) лекции 5 "ООП: От простого к практике"
 6. [Исходники](https://github.com/ILYA-NASA/OOP/tree/main/Lecture_06) лекции 6 "SOLID"
-7. [Практическое задание](https://github.com/ILYA-NASA/OOP/tree/main/Home_01) (дополняемое по мере поступления задач каждого семинара) - иммитация игры в стиле Turn-Based Strategy
+7. [Практическое задание](https://github.com/ILYA-NASA/OOP/tree/main/Home_01) (дополняемое по итогам семинаров) - иммитация игры в стиле Turn-Based Strategy
 8. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_01), что шарил на семинаре 1
 9. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_03), что шарил в конце семинара 3
 10. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_05) с семинара 5

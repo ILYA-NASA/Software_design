@@ -12,4 +12,4 @@
 10. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_05) с семинара 5
 11. [Версия игры](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_06/Game) с шестого семинара
 12. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_06/Practice), что шарил на семинаре 6
-13. [Проект](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_05) с семинара 7 "Дизайн и Solid"
+13. [Проект](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_07) с семинара 7 "Дизайн и Solid"

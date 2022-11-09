@@ -1,4 +1,4 @@
-**Практическая часть курса "Объектно-ориентированное программирование":**
+## Практическая часть курса "Объектно-ориентированное программирование":
 
 1. [Исходники](https://github.com/ILYA-NASA/OOP/tree/main/Lecture_01) лекции 1 "Введение в ООП. Свои типы и концепты"
 2. [Исходники](https://github.com/ILYA-NASA/OOP/tree/main/Lecture_02) лекции 2 "Принципы ООП Абстракция и интерфейсы. Пример проектирования"
@@ -13,3 +13,5 @@
 11. [Версия игры](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_06/Game) с шестого семинара
 12. [Код](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_06/Practice), что шарил на семинаре 6
 13. [Проект](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_07) с семинара 7 "Дизайн и Solid"
+
+![image](https://user-images.githubusercontent.com/99810114/200765534-fdc83cd8-5c6c-408c-86bd-f0f18a78c8ac.png)

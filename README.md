@@ -15,3 +15,7 @@
 13. [Проект](https://github.com/ILYA-NASA/OOP/tree/main/Seminar_07) с семинара 7 "Дизайн и Solid"
 
 ![image](https://user-images.githubusercontent.com/99810114/200765534-fdc83cd8-5c6c-408c-86bd-f0f18a78c8ac.png)
+
+## Практическая часть курса "Архитектура ПО":
+
+1. [Задание](https://github.com/ILYA-NASA/OOP/tree/main/Software_architecture/ModelElements) урока 1 "Введение в понятие архитектуры, проектирование ПО и жизненный цикл программного продукта. UML-диаграммы"

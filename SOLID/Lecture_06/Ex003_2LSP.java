@@ -18,7 +18,6 @@ public class Ex003_2LSP {
         List<Legs> list2 = new ArrayList<>(Arrays.asList(new Dog()/* , new Python() */));
         for (var animal : list2) {
             System.out.println(animal.getLegsCount());
-
         }
     }
 }

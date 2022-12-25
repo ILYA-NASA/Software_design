@@ -1,3 +1,6 @@
+// Принцип инверсии зависимостей (dependency inversion principle)
+// Зависимость на Абстракциях. Нет зависимости на что-то конкретное
+
 public class Ex005_1DIP {
     public static void main(String[] args) {
         Book book = new Book();

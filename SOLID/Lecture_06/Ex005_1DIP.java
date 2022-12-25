@@ -1,9 +1,7 @@
-
 public class Ex005_1DIP {
     public static void main(String[] args) {
         Book book = new Book();
         book.viewAuthor();
-
     }
 }
 
@@ -51,4 +49,5 @@ class Book {
     public void viewCurrentPage() {
         view.print(String.format("Страница: %s", indexPage));
     }
+    
 }

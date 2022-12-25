@@ -7,7 +7,6 @@ import java.util.List;
 
 public class Ex001_2SRP {
     public static void main(String[] args) {
-
         PlannerSRP planner = new PlannerSRP();
         planner.addEntry("1");
         planner.removeEntry(0);
@@ -15,7 +14,6 @@ public class Ex001_2SRP {
         // planner.loadFromDB("10.0.0.0","admin","1234");
         DataManager dm = new DataManager();
         dm.saveAllText(planner, "c:\\безысходность\\srp.txt");
-
     }
 }
 

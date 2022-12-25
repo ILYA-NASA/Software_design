@@ -59,4 +59,5 @@ class BookDIP {
     public void viewCurrentPage() {
         view.print(String.format("Страница: %s", indexPage));
     }
+    
 }

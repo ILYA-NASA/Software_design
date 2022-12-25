@@ -6,7 +6,6 @@
 
 public class Ex004_2ISP {
     public static void main(String[] args) {
-
     }
 }
 
@@ -17,7 +16,6 @@ interface BasePhone {
 
 interface Fax {
     void SendFax();
-
 }
 
 interface EMail {
@@ -32,14 +30,10 @@ class IPhone implements BasePhone, Fax, EMail {
 
     @Override
     public void SendSMS() {
-       
-
     }
 
     @Override
     public void SendEMail() {
-        
-
     }
 
     @Override
@@ -55,6 +49,6 @@ class Nokia3311 implements BasePhone {
 
     @Override
     public void SendSMS() {
-
     }
+    
 }

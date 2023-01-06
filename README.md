@@ -14,7 +14,7 @@
 
 ![Парадигмы](https://user-images.githubusercontent.com/99810114/208893929-b4e74bc4-3643-481a-a74c-831af82132e9.jpg)
 
-### [Переходим](https://github.com/ILYA-NASA/OOP/tree/main/Object-oriented) от процедурного к ООП
+### От процедурного программирования к [ООП](https://github.com/ILYA-NASA/OOP/tree/main/Object-oriented)
 
 ### SOLID 
 акроним пяти важных принципов проектирования при выполнении ООП (объектно-ориентированного программирования).   

@@ -160,6 +160,6 @@
 3. Направление зависимостей — от внешних слоёв ко внутренним.
 4. При пересечении границ слоя данные должны преобразовываться.
 
-[Драфт системы, написанный с применением принципов чистой архитектуры](https://github.com/ILYA-NASA/System_design/tree/main/Software_architecture/CleanArchitecture)
+### [Драфт системы, написанный с применением принципов чистой архитектуры](https://github.com/ILYA-NASA/System_design/tree/main/Software_architecture/CleanArchitecture)
 
 ---------------------------------------------

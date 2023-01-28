@@ -289,5 +289,5 @@ _Может состоять из других сервисов, при этом
 
 ![API](https://user-images.githubusercontent.com/99810114/215272429-837777ca-96db-4b1b-a3c7-359472b1d463.jpg)
 
-
+### [Создаем](https://gbcdn.mrgcdn.ru/uploads/record/235579/attachment/e6e2f8eb12d34147101b62d26eb6ab34.mp4) проет [приложения](https://github.com/ILYA-NASA/System_design/tree/main/Software_architecture/MyFirstWebApplication) в VisualStudio2022 с использованием шаблона ASP.NET Core Web API
 

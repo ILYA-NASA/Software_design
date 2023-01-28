@@ -230,7 +230,7 @@
 
 ### MVC (Model-View-Controller) 
 
-![MVC](https://user-images.githubusercontent.com/99810114/215264340-e2b75412-6b49-4dea-afd3-67530612777c.jpg)
+![MVC](https://user-images.githubusercontent.com/99810114/215266995-5c6b1de7-c157-4b7e-826c-39aef9121260.jpg)
 
 ### Controller
 отвечает за связь между моделью и
@@ -240,7 +240,7 @@
 
 ### MVP (Model-View-Presenter)
 
-![MVP](https://user-images.githubusercontent.com/99810114/215264807-37a56f68-1c74-4272-95d7-c56e04c9212a.jpg)
+![MVP](https://user-images.githubusercontent.com/99810114/215267005-9fda8561-055a-4314-bffb-6aeb67b9ce1e.jpg)
 
 был разработан для облегчения автоматического модульного тестирования и
 улучшения разделения ответственности, то есть отделения логики от
@@ -256,7 +256,7 @@
 
 ### MVVM (Model-View-ViewModel)
 
-![MVVM](https://user-images.githubusercontent.com/99810114/215266486-b8910faa-7f35-46a5-84ba-47eaa8a8bf50.jpg)
+![MVVM](https://user-images.githubusercontent.com/99810114/215267014-2073c7fb-ba06-423c-befc-bacaffb26c3f.jpg)
 
 ### ViewModel
 связывает модель и представление через механизм привязки

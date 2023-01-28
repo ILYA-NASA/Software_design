@@ -1,8 +1,8 @@
-package Software_architecture.MVP;
+package ru.geekbrains.lesson8;
 
-import Software_architecture.MVP.models.TableModel;
-import Software_architecture.MVP.presenters.BookingPresenter;
-import Software_architecture.MVP.views.BookingView;
+import ru.geekbrains.lesson8.models.TableModel;
+import ru.geekbrains.lesson8.presenters.BookingPresenter;
+import ru.geekbrains.lesson8.views.BookingView;
 
 import java.util.Date;
 
@@ -22,7 +22,7 @@ public class Sample01 {
         bookingPresenter.loadTables();
         bookingPresenter.updateView();
 
-        view.reservationTable(new Date(), 3, "Станислав");
+        view.reservationTable(new Date(), 3, "Илья");
 
     }
 

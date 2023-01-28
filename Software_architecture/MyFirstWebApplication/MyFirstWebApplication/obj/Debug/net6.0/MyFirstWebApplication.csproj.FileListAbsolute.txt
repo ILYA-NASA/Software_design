@@ -1,0 +1,35 @@
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\appsettings.Development.json
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\appsettings.json
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\MyFirstWebApplication.exe
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\MyFirstWebApplication.deps.json
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\MyFirstWebApplication.runtimeconfig.json
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\MyFirstWebApplication.dll
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\MyFirstWebApplication.pdb
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.csproj.AssemblyReference.cache
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.AssemblyInfoInputs.cache
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.AssemblyInfo.cs
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.csproj.CoreCompileInputs.cache
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.MvcApplicationPartsAssemblyInfo.cs
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\staticwebassets\msbuild.MyFirstWebApplication.Microsoft.AspNetCore.StaticWebAssets.props
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\staticwebassets\msbuild.build.MyFirstWebApplication.props
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MyFirstWebApplication.props
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MyFirstWebApplication.props
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\staticwebassets.pack.json
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\staticwebassets.build.json
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\staticwebassets.development.json
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\scopedcss\bundle\MyFirstWebApplication.styles.css
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.csproj.CopyComplete
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.dll
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\refint\MyFirstWebApplication.dll
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.pdb
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.genruntimeconfig.cache
+C:\sources\gb\SoftwareArch\group4\lesson9\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\ref\MyFirstWebApplication.dll
+C:\Users\user\Documents\GB\OOP\Object-oriented programming\Software_architecture\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.dll
+C:\Users\user\Documents\GB\OOP\Object-oriented programming\Software_architecture\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\refint\MyFirstWebApplication.dll
+C:\Users\user\Documents\GB\OOP\Object-oriented programming\Software_architecture\MyFirstWebApplication\MyFirstWebApplication\obj\Debug\net6.0\MyFirstWebApplication.pdb

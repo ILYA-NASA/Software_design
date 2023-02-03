@@ -75,6 +75,8 @@
 
 ### [Прогресс создания консольной игры в стиле Turn-Based Strategy ](https://github.com/ILYA-NASA/OOP/tree/main/ChroniclesOfGame)
 
+### [Паттерны ООП (обзорно)](https://github.com/ILYA-NASA/System_design/blob/main/Object-oriented/Паттерны%20ООП%20(обзорно).pdf)
+
 --------------------------------------------------
 
 ## SOLID 

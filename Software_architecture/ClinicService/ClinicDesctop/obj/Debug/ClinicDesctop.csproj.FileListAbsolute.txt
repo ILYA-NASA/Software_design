@@ -1,0 +1,14 @@
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\bin\Debug\ClinicDesctop.exe.config
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\bin\Debug\ClinicDesctop.exe
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\bin\Debug\ClinicDesctop.pdb
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\obj\Debug\ClinicDesctop.csproj.AssemblyReference.cache
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\obj\Debug\ClinicDesctop.csproj.SuggestedBindingRedirects.cache
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\obj\Debug\ClinicDesctop.Properties.Resources.resources
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\obj\Debug\ClinicDesctop.csproj.GenerateResource.cache
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\obj\Debug\ClinicDesctop.csproj.CoreCompileInputs.cache
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\obj\Debug\ClinicDesctop.exe
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\obj\Debug\ClinicDesctop.pdb
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\obj\Debug\ClinicDesctop.MainForm.resources
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\bin\Debug\Newtonsoft.Json.dll
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\bin\Debug\Newtonsoft.Json.xml
+C:\sources\gb\SoftwareArch\group4\lesson11\ClinicService\ClinicDesctop\obj\Debug\ClinicDesctop.csproj.CopyComplete

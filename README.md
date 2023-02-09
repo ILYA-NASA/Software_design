@@ -318,7 +318,7 @@ _Может состоять из других сервисов, при этом
 
 ![MicroService](https://user-images.githubusercontent.com/99810114/217877548-0461c7c8-b38f-4835-b938-93e5e8db73d4.jpg)
 
-### [Сквозной проект](https://github.com/ILYA-NASA/System_design/tree/main/Software_architecture/ClinicService) на основе паттерна Repository
+### [Сквозной проект](https://github.com/ILYA-NASA/System_design/tree/main/Software_architecture/ClinicService) на основе паттерна Repository, включая [Unit тесты](https://github.com/ILYA-NASA/System_design/tree/main/Software_architecture/ClinicService/ClinicServiceTests)
 
 ### Repository 
 позволяет абстрагироваться от конкретных подключений к источникам данных, с которыми работает программа.
